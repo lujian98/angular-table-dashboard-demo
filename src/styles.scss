@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/icc9/_theming.scss';
+@import './app/nav/nav.component.scss';
+@import './app/dashboard/dashboard.component.scss';
+@import './app/table/table.component.scss';
+
+
+@include icc-configure-theme() {
+  @include icc-theme-components();
+  @include nav-component-theme();
+  @include dashboard-component-theme();
+  @include table-component-theme();
+};
+
+/* // Set box-sizing globally to handle padding and border widths */
+*,
+*:after, *:before {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}

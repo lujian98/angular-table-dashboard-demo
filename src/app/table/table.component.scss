@@ -1,0 +1,16 @@
+
+@mixin table-component-theme() {
+  .app-table-container {
+    background-color: icc-theme(icc-background-color);
+    color: icc-theme(icc-text-color);
+    flex-direction: row;
+    overflow: hidden;
+    .app-table-side-menu {
+      flex: 0 0 200px;
+    }
+    .app-table-panel {
+      width: 200px; // need this make sure initial width is correct
+      flex: 1 1 auto;
+    }
+  }
+}

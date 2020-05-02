@@ -1,0 +1,21 @@
+.dashboard-container {
+  flex-direction: row;
+  .dashboard-side-menu {
+    width: 200px;
+    border: 1px solid blue;
+  }
+  .dashboard-main-panel {
+    width: 100%;
+    border: 1px solid blue;
+  }
+}
+.dashboard-footer {
+  height: 30px;
+}
+
+@mixin dashboard-component-theme() {
+  .dashboard-container, .dashboard-footer {
+    background-color: icc-theme(icc-background-color);
+    color: icc-theme(icc-text-color);
+  }
+}
