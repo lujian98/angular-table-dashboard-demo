@@ -8,7 +8,8 @@ import { LEVEL_TREE_DATA } from '../../models/level-tree-data';
     <icc-table
       [tableConfigs]="{
         'tableType': 'flatTree',
-        'enableTableSideMenu': true
+        'enableTableSideMenu': true,
+        'enableColumnResize': true
       }"
       [data]="data"
       [columnConfigs]="columnConfigs">

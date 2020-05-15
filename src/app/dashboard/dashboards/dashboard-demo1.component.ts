@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { getColor } from 'icc9';
 import { Tile } from 'icc9';
-import { PortalDemoComponent, PortalDemo2Component } from '../../portal';
+import { PortalDemoComponent } from '../../portal/portal-demo/portal-demo.component';
+import { PortalDemo2Component } from '../../portal/portal-demo2/portal-demo2.component';
 
 @Component({
   selector: 'icc-doc-dashboard-demo1',

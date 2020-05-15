@@ -16,6 +16,10 @@ import { PortalDemo2Component } from './portal-demo2/portal-demo2.component';
   exports: [
     PortalDemoComponent,
     PortalDemo2Component
+  ],
+  entryComponents: [
+    PortalDemoComponent,
+    PortalDemo2Component
   ]
 })
 export class DocPortalModule { }

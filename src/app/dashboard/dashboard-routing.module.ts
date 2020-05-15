@@ -9,7 +9,7 @@ const routes: Routes = [
     path: 'dashboard',
     component: DocDashboardComponent,
     children: [
-      { path: 'dashboard-demo1', component: DocDashboardDemo1Component },
+      { path: 'dashboard-demo', component: DocDashboardDemo1Component },
     ]
   }
 ];

@@ -11,6 +11,12 @@ const routes: Routes = [
   {
     path: 'dashboard', loadChildren: './dashboard/dashboard.module#DocDashboardModule',
   },
+  {
+    path: 'layouts', loadChildren: './layouts/layouts.module#DocLayoutsModule',
+  },
+  {
+    path: 'layout-column', loadChildren: './layout-column/layout-column.module#DocLayoutColumnModule',
+  },
 ];
 
 @NgModule({

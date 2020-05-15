@@ -1,0 +1,6 @@
+@mixin app-component-theme() {
+  .app-panel-container {
+    background-color: icc-theme(icc-background-color);
+    color: icc-theme(icc-text-color);
+  }
+}

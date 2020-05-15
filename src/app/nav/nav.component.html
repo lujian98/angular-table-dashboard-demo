@@ -1,18 +1,16 @@
 <header class="app-nav-header">
   <div class="nav">
-    <!--
-
-
     <li>
       <button (click)="toggleSideMenuNav()">
         <i class="fas fa-bars"></i>
       </button>
     </li>
-        -->
 
-    <li class="hidden-sm"><a routerLink="dashboard/dashboard-demo1" routerLinkActive="active">Dashboard</a></li>
+    <li class="hidden-sm"><a routerLink="dashboard/dashboard-demo" routerLinkActive="active">Dashboard</a></li>
     <li class="hidden-sm"><a routerLink="table/simple-table" routerLinkActive="active">Tables</a></li>
     <li class="hidden-sm"><a routerLink="tree/nested-tree" routerLinkActive="active">Trees</a></li>
+    <li class="hidden-sm"><a routerLink="layouts" routerLinkActive="active">Layouts</a></li>
+    <li class="hidden-sm"><a routerLink="layout-column" routerLinkActive="active">Column Layout</a></li>
 
     <label>
       <input type="checkbox" (change)="changeTheme($event)" [checked]="darkTheme">

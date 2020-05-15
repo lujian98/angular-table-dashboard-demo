@@ -1,0 +1,16 @@
+<div [iccPopover]="texttooltip"><br><br>Text Tooltip</div><br><br>
+
+<div [iccPopover]="tpl">Template Popover</div><br><br>
+
+
+<div class="popover-demo" [iccPopover]="popover" [iccPopoverContext]="popoverdata"> Component Tooltip</div>
+
+<ng-template #tpl let-close="close">
+  <div style="width: 250px; padding: 10px;">
+    And here's some amazing content. It's very engaging. Right? And here's some amazing content. It's very engaging.
+    Right?
+    <div style="display: flex; justify-content: flex-end; margin-top: 10px;">
+      <a class="button is-danger is-small" (click)="close({id: 2})">Close</a>
+    </div>
+  </div>
+</ng-template>

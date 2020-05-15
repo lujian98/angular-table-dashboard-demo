@@ -11,7 +11,8 @@ const MAX_NODES_PER_LEVEL = 3;
       [tableConfigs]="{
         'tableType': 'flatTree',
         'isNestedData': true,
-        'enableTableSideMenu': true
+        'enableTableSideMenu': true,
+        'enableColumnResize': true
       }"
       [data]="nestTreeData"
       [columnConfigs]="columnConfigs">

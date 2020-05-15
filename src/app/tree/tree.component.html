@@ -1,14 +1,15 @@
-<icc-panel>
-  <icc-panel-content class="app-table-container">
-    <div class="app-table-side-menu">
+<icc-panel class="app-panel-container">
+  <icc-panel-content class="app-content-container" resizeable="true">
+    <div class="app-content-start" start>
       <div><a routerLink="nested-tree" routerLinkActive="active">1. Nested Tree</a></div>
       <div><a routerLink="flat-tree" routerLinkActive="active">2. Flat Tree</a></div>
       <div><a routerLink="nested-tree-grid" routerLinkActive="active">3. Nested Tree Grid</a></div>
       <div><a routerLink="flat-tree-grid" routerLinkActive="active">4. Flat Tree Grid</a></div>
       <div><a routerLink="flat-tree-nested-data" routerLinkActive="active">5. Flat Tree (Nested Data)</a></div>
     </div>
-    <div class="app-table-panel">
+    <div class="app-content-middle" middle>
       <router-outlet></router-outlet>
     </div>
+    <div class="app-content-end" end>Left Container</div>
   </icc-panel-content>
 </icc-panel>

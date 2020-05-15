@@ -5,7 +5,7 @@ import { LEVEL_TREE_DATA } from '../../models/level-tree-data';
 @Component({
   selector: 'icc-doc-flat-tree',
   template: `
-    <icc-table
+    <icc-table width="315px"
       [tableConfigs]="{
         'tableType': 'flatTree',
         'enableTableSideMenu': true

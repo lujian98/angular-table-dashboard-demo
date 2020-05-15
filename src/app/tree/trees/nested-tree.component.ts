@@ -4,10 +4,11 @@ import { FoodNode, TREE_DATA } from '../../models/tree-data';
 @Component({
   selector: 'icc-doc-nested-tree',
   template: `
-    <icc-table
+    <icc-table width="315px"
       [tableConfigs]="{
         'tableType': 'nestedTree',
-        'enableTableSideMenu': true
+        'enableTableSideMenu': true,
+        'enableColumnResize': true
       }"
       [data]="data">
     </icc-table>
